@@ -22,9 +22,6 @@ if uploaded_file:
     # Cleaning CTR column
     queries_df['CTR'] = queries_df['CTR'].str.rstrip('%').astype('float') / 100
 
-    # Sidebar filters
-    st.sidebar.header("Feature Visualizations")
-
     # Most common words in queries
     def clean_and_split(query):
         return re.findall(r'\b[a-zA-Z]+\b', query.lower())
