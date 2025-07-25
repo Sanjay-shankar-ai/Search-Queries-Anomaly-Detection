@@ -1,4 +1,4 @@
-## Search Query Anomaly Detector
+# Search Query Anomaly Detector
 A Streamlit-based web app to analyze search query performance data and detect anomalies using an Isolation Forest model. Designed for SEO analysts, it processes the Queries.csv dataset (614 programming-related queries) and provides interactive visualizations and anomaly detection.
 
 ## Features
