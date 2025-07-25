@@ -23,16 +23,10 @@ thecleverprogrammer,2809,3456,81.28%,1.02
 
 
 
-## Setup Instructions
-
-Clone the Repository:
-git clone <repository-url>
-cd <repository-folder>
-
-
 ## Install Dependencies:
+```
 pip install streamlit pandas plotly scikit-learn
-
+```
 
 ## Run the App:
 streamlit run streamlit_app.py
@@ -44,10 +38,11 @@ Upload Dataset: Use Queries.csv with required columns.
 
 
 ## Requirements
-
+```
 Python: 3.8+
 Libraries: streamlit>=1.20.0, pandas>=1.5.0, plotly>=5.10.0, scikit-learn>=1.2.0
 OS: Windows, macOS, or Linux
+```
 
 ## Usage
 
