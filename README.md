@@ -2,12 +2,13 @@
 A Streamlit-based web app to analyze search query performance data and detect anomalies using an Isolation Forest model. Designed for SEO analysts, it processes the Queries.csv dataset (614 programming-related queries) and provides interactive visualizations and anomaly detection.
 
 ## Features
-
+```
 Data Input: Upload Queries.csv with columns: Top queries, Clicks, Impressions, CTR, Position.
 Exploratory Analysis: Visualizes top words, clicks, impressions, CTR extremes, and correlation matrix.
 Anomaly Detection: Identifies outliers using Isolation Forest on numerical features.
 Interactivity: Adjust contamination level (0.005–0.1) to tune anomaly sensitivity.
 Visualizations: Scatter plots and tables to compare anomalies vs. normal queries.
+```
 
 ## Dataset
 
